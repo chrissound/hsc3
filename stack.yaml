@@ -1,0 +1,7 @@
+resolver: lts-9.10
+packages:
+- '.'
+- location:
+    git: https://github.com/paullucas/hosc.git
+    commit: e204d4f13911bf0971b2b65ef7919505c94e77f6
+  extra-dep: true
