@@ -42,7 +42,7 @@ Library
                    split >= 0.2,
                    transformers,
                    vector
-  GHC-Options:     -Wall -fwarn-tabs
+  GHC-Options:     -Wall -Werror -fwarn-tabs
   Exposed-modules: Sound.SC3
                    Sound.SC3.Common
                    Sound.SC3.Common.Buffer
